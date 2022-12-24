@@ -1,0 +1,29 @@
+{
+    "id": "inkpot-saveends",
+    "title": "Ink Pot - Save Ends",
+    "description": "Module for automatically triggering Save Ends rolls.",
+    "authors": [
+        {
+            "name": "kyleady",
+            "flags": {}
+        }
+    ],
+    "version": "0.1.0",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10,
+        "maximum": 10
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd4e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "esmodules": [
+        "module/inkpot.js"
+    ]
+}
